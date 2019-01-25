@@ -1,7 +1,7 @@
 # https://www.acmicpc.net/problem/1924
 # 백준 문제 1924
 import sys
-#
+
 input = sys.stdin.readline().rstrip('\n')
 x, y = map(int, input.split())
 days = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
