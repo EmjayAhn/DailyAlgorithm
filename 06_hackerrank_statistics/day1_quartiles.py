@@ -12,21 +12,18 @@ def second_quartile(numbers):
     return round(median)
 
 def first_quartile(numbers, median):
-    first = []
     numbers = sorted(numbers)
-    for number in numbers:
-        if number < median:
-            first.append(number)
-    return second_quartile(first)
+    half = len(numbers) // 2
+    return second_quartile(numbers[:half])
 
 def third_quartile(numbers, median):
-    second = []
-    numbers = sorted(numbers, reverse=True)
-    for number in numbers:
-        if number > median:
-            second.append(number)
-    return second_quartile(second)
-
+    numbers = sorted(numbers)
+    half = len(numbers) // 2
+    if (len(numbers) % 2) == 0:
+        return second_quartile(numbers[half:])
+    else:
+        return second_quartile(numbers[half+1:])
+        
 number_of_numbers = int(sys.stdin.readline().rstrip('\n'))
 numbers = list(map(int, sys.stdin.readline().rstrip('\n').split()))
 
