@@ -14,5 +14,3 @@ A = (-z_value) * std + mean
 B = z_value * std + mean
 
 sys.stdout.write(str(round(A, 2)) + '\n' + str(round(B, 2)))
-
-print(cumulative(515.68, mean, std) - cumulative(484.32, mean, std))
