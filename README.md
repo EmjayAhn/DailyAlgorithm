@@ -12,3 +12,13 @@
   - [Hacker Rank](https://www.hackerrank.com) <br>
   - [백준 알고리즘](https://www.acmicpc.net) <br>
   - [Code Wars](https://www.codewars.com) <br>
+
+### 3. Solving 과정 & Done 과정
+#### (1) 30 Days of Code [Hacker Rank](https://www.hackerrank.com) 
+> 수행일 : 
+
+#### (2) 10 Days of Statistics [Hacker Rank](https://www.hackerrank.com) 
+> 수행일 :
+
+#### (3) 
+
