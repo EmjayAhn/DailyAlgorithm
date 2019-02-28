@@ -14,11 +14,24 @@
   - [Code Wars](https://www.codewars.com) <br>
 
 ### 3. Solving 과정 & Done 과정
-#### (1) 30 Days of Code [Hacker Rank](https://www.hackerrank.com) 
-> 수행일 : 
+#### (1) Baekjoon Algorithm [Hacker Rank](https://www.hackerrank.com)
+> 수행일 : 상시
 
-#### (2) 10 Days of Statistics [Hacker Rank](https://www.hackerrank.com) 
-> 수행일 :
+#### (3) Problem Solvin in [Hacker Rank](https://www.hackerrank.com)
+> 수행일 : 상시
 
-#### (3) 
+#### (4) 30 Days of Code [Hacker Rank](https://www.hackerrank.com) 
+> 수행일 : 19.2.8 ~
+- 난이도 :
+  
+#### (5) DataStructure [Hacker Rank](https://www.hackerrank.com)
+> 수행일 : 상시
+- 데이터 구조의 주제별로 정리되어 있는 문제를 풀고 있습니다.
+
+#### (6) 10 Days of Statistics [Hacker Rank](https://www.hackerrank.com) 
+> 수행일 : 19.2.21 ~
+- 난이도 : 
+
+
+ 
 
