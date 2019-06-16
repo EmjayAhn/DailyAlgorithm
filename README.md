@@ -21,8 +21,8 @@
 > 수행일 : 상시
 
 #### (4) 30 Days of Code [Hacker Rank](https://www.hackerrank.com) 
-> 수행일 : 19.2.8 ~
-- 난이도 :
+> 수행일 : 19.2.8 ~ 19.3.8
+- 난이도 : 1 / 5
   
 #### (5) DataStructure [Hacker Rank](https://www.hackerrank.com)
 > 수행일 : 상시
