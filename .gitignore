@@ -1,2 +1,6 @@
+.*
 02_codingtest/
 .vscode/
+*.ipynb
+.gitignore
+.DS_Store
