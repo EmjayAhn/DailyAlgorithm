@@ -11,5 +11,4 @@ input_list = deque([i for i in range(1, N+1)])
 while len(input_list) != 1:
     routine(input_list)
     
-print(input_list[0])
-    
+print(input_list[0]) 
