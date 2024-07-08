@@ -21,5 +21,3 @@ def VPS(input_string):
 for _ in range(N):
 	input_string = input()
 	print(VPS(input_string))
-
-
