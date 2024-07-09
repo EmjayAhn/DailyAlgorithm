@@ -32,3 +32,4 @@ if len(mx_dic)>1:#최빈값이 여러개라면
 else:#하나라면
     print(mx_dic[0])#해당 값 출력  3)최빈값
     
+print(max(arr)-min(arr))#4) 범위
