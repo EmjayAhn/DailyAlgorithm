@@ -1,40 +1,10 @@
-# T = int(input())
+t = int(input())
 
-
-# def how_many(k, n):
-# 	if k == 0:
-# 		return n
-# 	result = 0
-# 	for i in range(1, n+1):
-# 		result += how_many(k-1, i)
-
-# 	return result
-
-
-# for _ in range(T):
-# 	k = int(input())
-# 	n = int(input())
-
-# 	# 0 층 1호 : 1명
-# 	# 0 층 2호 : 2명
-# 	# 1 층 1호 : 1명
-# 	# 1 층 2호 : 0층의 1호 부터 2호 : 1명 + 2명 = 3명
-# 	# 1 층 3호 : 0층의 1호 부터 3호 : 1 + 2 +3 
-# 	# 2 층 2호 : 1층의 1호부터 2호 : 1명 + 3명 = 4명
-# 	result = 0
-# 	result = how_many(k, n)
-# 	print(result)
-
-def how_many(k, n):
-	if k == 0:
-		return n
-
-	
-T = int(input())
-
-for _ in range(T):
-	k = int(input())
-	n = int(input())
-
-	memory = {}
-
+for _ in range(t):  
+    floor = int(input())  # 층
+    num = int(input())  # 호
+    f0 = [x for x in range(1, num+1)]  # 0층 리스트
+    for k in range(floor):  # 층 수 만큼 반복
+        for i in range(1, num):  # 1 ~ n-1까지 (인덱스로 사용)
+            f0[i] += f0[i-1]  # 층별 각 호실의 사람 수를 변경
+    print(f0[-1])  # 가장 마지막 수 출력
