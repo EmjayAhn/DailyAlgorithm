@@ -1,4 +1,5 @@
 import sys
+sys.setrecursionlimit(100000)
 
 def fibonacci_recursive(n):
     global recursive_count
