@@ -1,11 +1,8 @@
-import sys
-input = sys.stdin.readline
+students = [i for i in range(1,31)]
 
-input_list = []
-default = set([i for i in range(1, 29)])
 for _ in range(28):
-    input_list.append(int(input()))
-input_list = set(input_list)
+    applied = int(input())
+    students.remove(applied) #소거
 
-for each in sorted(list(default - input_list)):
-    print(each)
+print(min(students))
+print(max(students))
