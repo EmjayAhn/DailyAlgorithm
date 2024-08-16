@@ -1,14 +1,11 @@
-import sys
-input = sys.stdin.readline
-
+# input
 N = int(input())
-input_list = list(map(int, input().split()))
+arr = [0] + list(map(int, input().split()))
 
-value = -1000
-for i in range(N):
-    for j in range(i+1, N+1):
-        cur_sum = sum(input_list[i:j])
-        value = max(cur_sum, value)
-        
-print(value)
-    
+# solve
+dp = [0 for _ in range(N + 1)]
+
+for n in range(1, N + 1):
+    dp[n] = max(dp[n - 1], 0) + arr[n]
+
+print(max(dp[1:]))
