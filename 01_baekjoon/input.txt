@@ -1,20 +1,9 @@
-ObjectOrientedProgramming1 3.0 A+
-IntroductiontoComputerEngineering 3.0 A+
-ObjectOrientedProgramming2 3.0 A0
-CreativeComputerEngineeringDesign 3.0 A+
-AssemblyLanguage 3.0 A+
-InternetProgramming 3.0 B0
-ApplicationProgramminginJava 3.0 A0
-SystemProgramming 3.0 B0
-OperatingSystem 3.0 B0
-WirelessCommunicationsandNetworking 3.0 C+
-LogicCircuits 3.0 B0
-DataStructure 4.0 A+
-MicroprocessorApplication 3.0 B+
-EmbeddedSoftware 3.0 C0
-ComputerSecurity 3.0 D+
-Database 3.0 C+
-Algorithm 3.0 B0
-CapstoneDesigninCSE 3.0 B+
-CompilerDesign 3.0 D0
-ProblemSolving 4.0 P
+3 23 85 34 17 74 25 52 65
+10 7 39 42 88 52 14 72 63
+87 42 18 78 53 45 18 84 53
+34 28 64 85 12 16 75 36 55
+21 77 45 35 28 75 90 76 1
+25 87 65 15 28 11 37 28 74
+65 27 75 41 7 89 78 64 39
+47 47 70 45 23 65 3 41 44
+87 13 82 38 31 12 29 29 80
